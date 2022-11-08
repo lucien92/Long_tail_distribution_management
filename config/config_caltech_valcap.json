@@ -1,0 +1,25 @@
+    
+{
+    "data" : {
+        "train_images_file":       "/home/acarlier/code/code_to_present_class_imbalanced_issue/Caltech101_images_train_val_test/caltech_images_train",
+        "valid_images_file":       "/home/acarlier/code/code_to_present_class_imbalanced_issue/1data_level_policy/caltech101_data_val_cap15",
+        "test_images_file":        "/home/acarlier/code/code_to_present_class_imbalanced_issue/Caltech101_images_train_val_test/caltech_images_test"
+        
+    },
+
+    "train": {
+        "pretrained_weights":   "",
+        "batch_size":           16,
+        "learning_rate":        1e-3,
+        "nb_epochs":            100,
+
+        "workers":              12,
+        "max_queue_size":       40,
+        "early_stop":           false,
+        "tensorboard_log_dir":  "./logs/1",
+
+        "saved_weights_name":   "/home/acarlier/code/code_to_present_class_imbalanced_issue/weights/valcap15_resnet/model"
+    }
+
+    
+}

@@ -1,0 +1,25 @@
+    
+{
+    "data" : {
+        "train_images_file":       "/home/acarlier/code/code_to_present_class_imbalanced_issue/Caltech_trap_train_val_test/train",
+        "valid_images_file":       "/home/acarlier/code/code_to_present_class_imbalanced_issue/Caltech_trap_train_val_test/val",
+        "test_images_file":        "/home/acarlier/code/code_to_present_class_imbalanced_issue/Caltech_trap_train_val_test/test",
+        "label":                   ["badger", "bird", "bobcat", "car", "cat", "cow", "coyote", "deer", "dog", "fox", "lizard", "mountain_lion", "opossum", "rabbit", "raccoon", "rodent", "skunk", "squirrel"]
+        
+    },
+
+    "train": {
+        "pretrained_weights":   "",
+        "batch_size":           16,
+        "learning_rate":        1e-3,
+        "nb_epochs":            100,
+
+        "workers":              12,
+        "max_queue_size":       10,
+        "early_stop":           false,
+        "tensorboard_log_dir":  "./logs/1",
+        "saved_weights_name":   "/home/acarlier/code/code_to_present_class_imbalanced_issue/weights/model_trap_sampling_focal_loss_resnet/model",
+        "sampling":             true,
+        "focal_loss":           true
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "dataset": {
+        "dataset_path": "/home/acarlier/code/code_to_present_class_imbalanced_issue/256_ObjectCategories"
+    },
+    "caltech_trap": {
+        "bobcat": 8098, 
+        "opossum": 16698, 
+        "empty": 125745, 
+        "coyote": 16601, 
+        "raccoon": 11390, 
+        "bird": 10003, 
+        "dog": 4512, 
+        "cat": 5297, 
+        "squirrel": 4450, 
+        "rabbit": 12519, 
+        "skunk": 1898, 
+        "lizard": 309, 
+        "rodent": 4279, 
+        "badger": 50, 
+        "deer": 12196, 
+        "cow": 3626, 
+        "car": 4717, 
+        "fox": 2574, 
+        "pig": 2, 
+        "mountain_lion": 145, 
+        "bat": 3, 
+        "insect": 6
+    },
+
+    "Kgalagalai": {
+        "empty": 7886,
+        "human": 135,
+        "gemsbokoryx": 1378,
+        "birdother": 324, 
+        "jackalblackbacked": 83, 
+        "foxcape": 19, 
+        "harecape": 1, 
+        "reptilesamphibians": 3, 
+        "ostrich": 136, 
+        "eland": 30, 
+        "hyenabrown": 11, 
+        "bustardkori": 102, 
+        "steenbok": 122, 
+        "honeybadger": 5, 
+        "duikercommongrey": 21, 
+        "birdofprey": 10, 
+        "leopard": 9, 
+        "wildebeestblue": 37, 
+        "hartebeestred": 13, 
+        "kudu": 18, 
+        "catafricanwild": 10, 
+        "foxbateared": 1, 
+        "meerkatsuricate": 3, 
+        "lionfemale": 1, 
+        "secretarybird": 27, 
+        "caracal": 6, 
+        "porcupine": 3, 
+        "cheetah": 3, 
+        "aardvarkantbear": 1, 
+        "hyenaspotted": 1, 
+        "rodent": 3
+    }
+}
+    
+
